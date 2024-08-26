@@ -1,0 +1,15 @@
+version: 2
+
+sources:
+  - name: commodities
+    schema: public
+    tables:
+      - name: commodities
+        description: "Table with historical data of commodities"
+        columns:
+          - name: Date
+            description: "Date of observation"
+          - name: Close
+            description: "Closing price"
+          - name: ticker
+            descriptions: "ticker symbol"
