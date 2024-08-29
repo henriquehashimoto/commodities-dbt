@@ -1,8 +1,9 @@
-# commodities-dbt
+
+# Commodities - API Python + DBT + Postgres
 
 
-# Folder system
+## Introduction
+The objective of this project is to create a simple ETL to get data from commodities prices traded on global stock market, transform using DBT and store in a Postgres SQL. 
 
-- src: `Extract` files, sources for the project
 
-- app: strealit
+![ETL Workflow](image.png)
